@@ -1,9 +1,8 @@
 """
 配置模块 —— 全部从环境变量 / .env 读取，配置极简。
 
-⚠️ 重要：本项目**不含任何真实凭据或公司信息**。`.env.example` 里的
-FEISHU_APP_ID / FEISHU_APP_SECRET 都是**假占位符**，使用前必须替换成你自己飞书应用的真实值。
-若检测到仍是占位符，运行时会打印醒目提醒。
+⚠️ 重要：`.env.example` 里的 FEISHU_APP_ID / FEISHU_APP_SECRET 是**假占位符**，
+使用前必须替换成你自己飞书应用的真实值。若检测到仍是占位符，运行时会打印醒目提醒。
 """
 from __future__ import annotations
 
