@@ -1,0 +1,7 @@
+# 核心运行时依赖（库本身只需要 httpx）
+httpx>=0.24
+
+# 仅 examples/minimal_bot.py 示例需要：
+fastapi>=0.110
+uvicorn>=0.27
+python-dotenv>=1.0
